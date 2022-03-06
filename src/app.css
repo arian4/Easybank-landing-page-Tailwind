@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .btn-req {
+      @apply transition text-sm bg-gradient-to-r from-primary-green to-primary-cyan text-neutral-white rounded-3xl py-2 px-4;
+    }
+
+    .nav-link {
+      @apply text-neutral-100 mx-5 h-full flex items-center transition border-b-4 border-transparent;
+    }
+
+    
+}  
+
